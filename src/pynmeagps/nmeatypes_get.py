@@ -1195,6 +1195,110 @@ NMEA_PAYLOADS_GET = {
         "PDOP": DE,
         "unit": CH,  # 'M'
     },
+    # ***************************************************************
+    # SkyTraq message types
+    # ***************************************************************
+    "PSTI005": {
+        "msgId": ST,  # "005"
+        "utctime": TM,
+        "utcday": IN,
+        "utcmonth": IN,
+        "utcyr": IN,
+        "res0": ST,
+        "res1": ST,
+        "res2": ST,
+        "res3": ST,
+        "res4": ST
+    },
+    "PSTI030": {
+        "msgId": ST,  # "030"
+        "utctime": TM,
+        "status": CH,
+        "lat": LA,
+        "NS": CH,
+        "lon": LN,
+        "EW": CH,
+        "alt": DE,
+        "veast": DE,
+        "vnor": DE,
+        "vup": DE,
+        "utcdate": DT,
+        "mode": CH,
+        "rtk_age": DE,
+        "rtk_ratio": DE
+    },
+    "PSTI032": {
+        "msgId": ST,  # "032"
+        "utctime": TM,
+        "utcdate": DT,
+        "status": CH,
+        "mode": CH,
+        "base_east": DE,
+        "base_north": DE,
+        "base_up": DE,
+        "base_len": DE,
+        "base_course": DE,
+        "res0": ST,
+        "res1": ST,
+        "res2": ST,
+        "res3": ST,
+        "res4": ST
+    },
+    "PSTI033": {
+        "msgId": ST,  # "033"
+        "utctime": TM,
+        "utcdate": DT,
+        "version": IN,
+        "receiver": CH,
+        "num_meas": IN,
+        "sys1_type": CH,
+        "num_meas_l1": IN,
+        "num_meas_l2": IN,
+        "res0": ST,
+        "res1": ST,
+        "sys2_type": CH,
+        "num_meas_b1": IN,
+        "num_meas_b2": IN,
+        "res2": ST,
+        "res3": ST,
+        "sys3_type": CH,
+        "num_meas_e1": IN,
+        "num_meas_e5b": IN,
+        "res4": ST,
+        "res5": ST,
+        "sys4_type": CH,
+        "num_meas_g1": IN,
+        "num_meas_g2": IN,
+        "res6": ST,
+        "res7": ST
+    },
+    "PSTI035": {
+        "msgId": ST,  # "035"
+        "utctime": TM,
+        "utcdate": DT,
+        "status": CH,
+        "mode": CH,
+        "base_east": DE,
+        "base_north": DE,
+        "base_up": DE,
+        "base_len": DE,
+        "base_course": DE,
+        "res0": ST,
+        "res1": ST,
+        "res2": ST,
+        "res3": ST,
+        "res4": ST
+    },
+    "PSTI036": {
+        "msgId": ST,  # "036"
+        "utctime": TM,
+        "utcdate": DT,
+        "heading": DE,
+        "pitch": DE,
+        "roll": DE,
+        "mode": CH
+    }
+        
     # *********************************************
     # Dummy message for error testing
     # *********************************************
