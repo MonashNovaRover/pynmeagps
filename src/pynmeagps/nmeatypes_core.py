@@ -25,7 +25,7 @@ ERR_IGNORE = 0
 ERR_LOG = 1
 ERR_RAISE = 2
 # proprietary messages where msgId is first element of payload:
-PROP_MSGIDS = ("UBX", "TNL", "ASHR", "GPPADV")
+PROP_MSGIDS = ("UBX", "TNL", "ASHR", "GPPADV", "STI")
 
 GNSSLIST = {
     0: "GPS",
@@ -297,6 +297,16 @@ NMEA_MSGIDS_PROP = {
     "TNLREX": "Rover Extended Output",
     "TNLVGK": "Vector information",
     "TNLVHD": "Heading information",
+    
+    # ***************************************************************
+    # STI Proprietary message types
+    # ***************************************************************
+    "STI005": "Time Stamp Output"
+    "STI030": "Recommended Minimum 3D GNSS Data"
+    "STI032": "RTK Baseline Data"
+    "STI033": "RTK RAW Measurement Monitoring Data"
+    "STI035": "RTK Baseline Data of Rover Moving Base Receiver"
+    "STI036": "Heading Pitch and Roll Messages of vehicle"
     # ***************************************************************
     # Dummy message for testing only
     # ***************************************************************
