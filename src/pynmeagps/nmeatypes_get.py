@@ -1297,8 +1297,7 @@ NMEA_PAYLOADS_GET = {
         "pitch": DE,
         "roll": DE,
         "mode": CH
-    }
-        
+    },
     # *********************************************
     # Dummy message for error testing
     # *********************************************
