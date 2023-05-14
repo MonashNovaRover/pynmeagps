@@ -1198,7 +1198,7 @@ NMEA_PAYLOADS_GET = {
     # ***************************************************************
     # SkyTraq message types
     # ***************************************************************
-    "PSTI005": {
+    "STI005": {
         "msgId": ST,  # "005"
         "utctime": TM,
         "utcday": IN,
@@ -1210,7 +1210,7 @@ NMEA_PAYLOADS_GET = {
         "res3": ST,
         "res4": ST
     },
-    "PSTI030": {
+    "STI030": {
         "msgId": ST,  # "030"
         "utctime": TM,
         "status": CH,
@@ -1227,7 +1227,7 @@ NMEA_PAYLOADS_GET = {
         "rtk_age": DE,
         "rtk_ratio": DE
     },
-    "PSTI032": {
+    "STI032": {
         "msgId": ST,  # "032"
         "utctime": TM,
         "utcdate": DT,
@@ -1244,7 +1244,7 @@ NMEA_PAYLOADS_GET = {
         "res3": ST,
         "res4": ST
     },
-    "PSTI033": {
+    "STI033": {
         "msgId": ST,  # "033"
         "utctime": TM,
         "utcdate": DT,
@@ -1272,7 +1272,7 @@ NMEA_PAYLOADS_GET = {
         "res6": ST,
         "res7": ST
     },
-    "PSTI035": {
+    "STI035": {
         "msgId": ST,  # "035"
         "utctime": TM,
         "utcdate": DT,
@@ -1289,7 +1289,7 @@ NMEA_PAYLOADS_GET = {
         "res3": ST,
         "res4": ST
     },
-    "PSTI036": {
+    "STI036": {
         "msgId": ST,  # "036"
         "utctime": TM,
         "utcdate": DT,
