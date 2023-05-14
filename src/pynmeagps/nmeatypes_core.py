@@ -301,12 +301,12 @@ NMEA_MSGIDS_PROP = {
     # ***************************************************************
     # STI Proprietary message types
     # ***************************************************************
-    "STI005": "Time Stamp Output"
-    "STI030": "Recommended Minimum 3D GNSS Data"
-    "STI032": "RTK Baseline Data"
-    "STI033": "RTK RAW Measurement Monitoring Data"
-    "STI035": "RTK Baseline Data of Rover Moving Base Receiver"
-    "STI036": "Heading Pitch and Roll Messages of vehicle"
+    "STI005": "Time Stamp Output",
+    "STI030": "Recommended Minimum 3D GNSS Data",
+    "STI032": "RTK Baseline Data",
+    "STI033": "RTK RAW Measurement Monitoring Data",
+    "STI035": "RTK Baseline Data of Rover Moving Base Receiver",
+    "STI036": "Heading Pitch and Roll Messages of vehicle",
     # ***************************************************************
     # Dummy message for testing only
     # ***************************************************************
