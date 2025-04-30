@@ -478,6 +478,15 @@ NMEA_MSGIDS_PROP = {
     "SSNSNC": "NTRIP Client Status",
     "SSNTFM": "Used RTCM Coordinate Transformation Messages",
     # ***************************************************************
+    # Skytraq Proprietary message types
+    # ***************************************************************
+    "STI005": "Time Stamp Output",
+    "STI030": "Recommended Minimum 3D GNSS Data",
+    "STI032": "RTK Baseline Data",
+    "STI033": "RTK RAW Measurement Monitoring Data",
+    "STI035": "RTK Baseline Data of Rover Moving Base Receiver",
+    "STI036": "Heading Pitch and Roll Messages of vehicle",
+    # ***************************************************************
     # U-BLOX Proprietary message types
     # ***************************************************************
     "UBX00": "PUBX-POSITION Lat/Long Position Data",
@@ -567,7 +576,7 @@ Payload definitions for proprietary GET messages are defined in
 in `NMEA_PAYLOADS_SET` and `NMEA_PAYLOADS_POLL`.
 """
 
-NMEA_PREFIX_PROP = ("ASHR", "GPPADV", "FEC", "SSN", "TNL", "UBX")
+NMEA_PREFIX_PROP = ("ASHR", "GPPADV", "FEC", "SSN", "TNL", "UBX", "STI")
 """
 Proprietary NMEA Message Prefixes where `msgId` is part of payload.
 
